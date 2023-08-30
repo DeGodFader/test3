@@ -1,6 +1,6 @@
 import React from 'react'
 import * as bs from 'react-icons/bs';
-import HospitalCard from './HospitalCard';
+import HospitalCard from '../Items/HospitalCard';
 
 function HospitalList() {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import Sidebar from "./components/sidebar";
 import Navbar from "./components/Navbar";
-import Content from "./components/Doctor/Content";
+import Content from "./components/MedicalRecords/Content";
 
 
 

@@ -14,7 +14,7 @@ function Navbar() {
             ID: 43289
           </p>
         </div>
-          <img src="/images/img4.png" alt="" className='rounded-full p-1h-14 w-14'/>
+          <img src="/images/img4.png" alt="" className='rounded-full p-1 h-14 w-14'/>
         <bs.BsChevronDown className='w-5 h-5 mx-1 inline'/>
       </button>
       <buttoon className="ms-3 p-2">

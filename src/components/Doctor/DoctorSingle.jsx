@@ -1,6 +1,7 @@
 import React from 'react'
 import * as bs from 'react-icons/bs'
 import * as bi from 'react-icons/bi'
+import Reviews from '../Items/Reviews'
 
 
 function DoctorSingle() {
@@ -84,7 +85,7 @@ function DoctorSingle() {
             <h1 className="text-md text-[#4A72FF] font-bold mb-4">
                 About Us
             </h1>
-            <p className="text-justify my-2">
+            <p className="text-justify text-md my-2">
                 The use of this Platform (Website and Services) implies that the user has read and accepted our Terms & Conditions. If you disagree with any part hereof, do not access the Platform.”The Referrer” (“You”)means the individual accessing or using thisPlatform.One Global Medical Technology Ltd (“the Company” or “Helium Health”or “Our”) is a technology company transitioning Africa’s health care to a data-driven system, providing software products and services like credit lending to health care providers and patients.ThisTerms & Conditions (also referred to as this “Agreement”)is an Agreement between you and the Company
             </p>
         </div>
@@ -92,10 +93,104 @@ function DoctorSingle() {
         <hr className="w-full -mt-2" />
 
         <div className="p-10">
-            <h1 className="text-md text-[#4A72FF] font-bold mb-4">
-                Doctor's Review
+            <h1 className="text-md text-[#4A72FF] font-bold">
+                Doctor's Statistics
             </h1>
+            <p className="text-md">
+                See Doctor’s Career Performance
+            </p>
+            <div className="my-8 flex px-3 items-center">
+                <secction className="aspect-square mx-1 flex items-center">
+                    <div>
+                        <p className='flex items-center'>
+                            <img src="images/people.png" alt="" className="w-8 h-8 inlin" />
+                            <span className="inline text-[#4A72FF] mx-2 font-bold text-lg">
+                             Total Patients
+                            </span>
+                        </p>
+                        <center>
+                            <p className="text-5xl text-base">
+                                50
+                            </p>
+                            <p className="text-[#11A75C]">
+                                <bs.BsFillCaretUpFill className='w-4 h-4 inline'/>
+                                <span className="inline text-lg">%10</span>
+                            </p>
+                        </center>
+                    </div>
+                </secction>
+
+                <hr className="w-32 -mx-6 h-2 rotate-90" />
+
+                <secction className="aspect-square mx-1 flex items-center">
+                    <div>
+                        <p className='flex items-center'>
+                            <img src="images/drip.png" alt="" className="w-8 h-8 inlin" />
+                            <span className="inline text-[#4A72FF] mx-2 font-bold text-lg">
+                             Total Surgeries
+                            </span>
+                        </p>
+                        <center>
+                            <p className="text-5xl text-base">
+                                50
+                            </p>
+                            <p className="text-[#11A75C]">
+                                <bs.BsFillCaretUpFill className='w-4 h-4 inline'/>
+                                <span className="inline text-lg">%10</span>
+                            </p>
+                        </center>
+                    </div>
+                </secction>
+
+                <hr className="w-32 -mx-6 h-2 rotate-90" />
+
+                <secction className="aspect-square mx-1 flex items-center">
+                    <div>
+                        <p className='flex items-center'>
+                            <img src="images/calender.png" alt="" className="w-8 h-8 inlin" />
+                            <span className="inline text-[#4A72FF] mx-2 font-bold text-lg">
+                             Experience
+                            </span>
+                        </p>
+                        <center>
+                            <p className="text-5xl text-base">
+                                50
+                            </p>
+                            <p className="text-[#11A75C]">
+                                <bs.BsFillCaretUpFill className='w-4 h-4 inline'/>
+                                <span className="inline text-lg">%10</span>
+                            </p>
+                        </center>
+                    </div>
+                </secction>
+
+                <hr className="w-32 -mx-6 h-2 rotate-90" />
+
+                <secction className="aspect-square mx-1 flex items-center">
+                    <div>
+                        <p className='flex items-center'>
+                            <img src="images/calendar-2.png" alt="" className="w-8 h-8 inlin" />
+                            <span className="inline text-[#4A72FF] mx-2 font-bold text-lg">
+                             Appointments
+                            </span>
+                        </p>
+                        <center>
+                            <p className="text-5xl text-base">
+                                50
+                            </p>
+                            <p className="text-[#11A75C]">
+                                <bs.BsFillCaretUpFill className='w-4 h-4 inline'/>
+                                <span className="inline text-lg">%10</span>
+                            </p>
+                        </center>
+                    </div>
+                </secction>
+            </div>
         </div>
+
+        <hr className="w-full -mt-2" />
+
+        < Reviews/>
     </div>
   )
 }
